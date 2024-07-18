@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/result.png"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/result.png"> 
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/result.png"> 
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+    <header class="header">
+        <img class="header-logo" src="./img/result.png" alt="#">
+        <div class="header__box">
+            <a class="header__box-name" href="#home">HOME</a>
+            <p class="header__box-name">|</p>
+            <a class="header__box-name" href="#music">MUSIC</a>
+            <p class="header__box-name">|</p>
+            <a class="header__box-name" href="#about">ABOUT</a>
+        </div>
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        
+    </header>
+
+    <div class="header__nav">
+        <nav class="nav">
+            <div class="nav__box">
+                <a class="nav__box-name" href="#home">HOME</a>
+                <a class="nav__box-name" href="#music">MUSIC</a>
+                <a class="nav__box-name" href="#about">ABOUT</a>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+    <main class="main" id="home">
+        <div class="main-body">
+            <div class="main-body__box">
+                <h1 class="main-body__box-titel"> POPULAR</h1>
+                <p class="main-body__box-text"> MUSIC</p>
+            </div>
+            <img id="img" class="main-disk" src="./img/disk.png" alt="#">
+            <img class="main-line" src="./img/Group 1.png" alt="#">
+        </div>
+
+
+        <div class="main-lang">
+            <div class="main-lang__box">
+                <img class="main-lang__box-img" src="./img/download.png" alt="#">
+                <p class="main-lang__box-text">Ukrainian</p>
+            </div>
+            <div class="main-lang__box">
+                <img class="main-lang__box-img" src="./img/english.jpg" alt="#">
+                <p class="main-lang__box-text">English</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="Go_A" id="music">
+            <div class="Go_A__block">
+                <img class="Go_A__block-img" src="./img/SHUM.jpg" alt="#">
+            </div>
+            <div class="Go_A__box">
+                <h1 class="Go_A__box-titel">Go_A</h1>
+        
+                <div class="Go_A__box__music">
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">01</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal1">SHUM - 102 mil.</p>
+                    </div>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/SHUM.jpg" alt="#">
+                                    <p class="modal-box__block-text">Go_A • SHUM • 2021</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/shum.mp3" type="audio/ogg">
+                                    </audio> 
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Весняночко, весняночко<br>
+Де ти зимувала?<br>
+У садочку на кленочку<br>
+Сорочечку пряла<br>
+Там у лісі, на юзліссі<br>
+Сова в воду дує<br>
+Заспіваю співаночку<br>
+Нехай вона чує<br>
+<br>
+Заплетися, шуме, барвіночком<br>
+Я тобі співаю весняночку<br>
+Сію, сію, сію, сію конопелечки<br>
+Сію, сію, сію, сію зеленесенькі<br>
+<br>
+Прийди, прийди, весняночко<br>
+Та й не забарися<br>
+А ми вийдем на юлицю<br>
+Будем любитися<br>
+Весняночко, паняночко<br>
+Заглянь у віконце<br>
+Заспівали співаночку<br>
+Засвітило сонце<br>
+<br>
+Нумо, нумо, заплетемо шума<br>
+Заплетемо, гуляти підемо<br>
+Сію, сію, сію, сію конопелечки<br>
+Сію, сію, сію, сію зеленесенькі<br>
+<br>
+Заплетися, шуме, заплетися<br>
+Барвіночком, шуме, застелися<br>
+Сію, сію, сію, сію конопелечки<br>
+Сію, сію, сію, сію зеленесенькі<br>
+<br>
+Весняночко, весняночко<br>
+Де ти зимувала?<br>
+У садочку на кленочку<br>
+Сорочечку пряла<br>
+Ой у лісі, на юзліссі<br>
+Сова в воду дує<br>
+Заспіваю співаночку<br>
+Нехай вона чує<br>
+<br>
+Заплетися, шуме, барвіночком<br>
+Я тобі співаю весняночку<br>
+Сію, сію, сію, сію конопелечки<br>
+Сію, сію, сію, сію зеленесенькі<br>
+<br>
+Нумо, нумо, наробили шуму<br>
+Наробили, весну розбудили<br>
+Сію, сію, сію, сію конопелечки<br>
+Сію, сію, сію, сію зеленесенькі!<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">02</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal2">Solovey - 12 mil.</p>
+                    </div>
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/solovey.jpg" alt="#">
+                                    <p class="modal-box__block-text">Go_A • Solovey • 2020</p>
+                                    <audio controls  class="box-audio-width">
+                                        <source src="./audio/Go_A – Solovey.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Ой ходила я в долину<br>
+По червоную калину<br>
+Ой ходила я в долину<br>
+По червоную калину<br>
+Назбирала квіточок<br>
+Заплітала в віночок<br>
+Заплітала в віночок<br>
+Руту і барвіночок<br>
+А до мене Ванюша<br>
+Із за гаю поспіша<br>
+А до мене Ванюша<br>
+Ти Катруся хороша!<br>
+Мила моя Катруся<br>
+Я з тобою люблюся<br>
+Я з тобою люблюся<br>
+Поки не зна матуся<br>
+<br>
+Соловей, соловей не співай раненько<br>
+А мені на серденьку знов не веселенько<br>
+Соловей, соловей ой як мені бути<br>
+Вміла його полюбити - не вміла забути<br>
+<br>
+Якби я того не знала<br>
+То з тобою б не гуляла<br>
+Не ходила в долину<br>
+Не ламала б калину<br>
+Я з тобою люблюся<br>
+Поки не зна матуся<br>
+А як узна матуся, то розійдемося<br>
+Не співай раненько<br>
+Щось не веселенько<br>
+Ой як мені бути<br>
+<br>
+Соловей, соловей не співай раненько<br>
+А мені на серденьку знов не веселенько<br>
+Соловей, соловей ой як мені бути<br>
+Вміла його полюбити - не вміла забути<br>
+<br>
+Соловей, соловей не співай раненько<br>
+Бо мені на серденьку знов не веселенько<br>
+Соловей, соловей ой як мені бути<br>
+Вміла його полюбити - не вміла забути<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">03</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal3">Kalyna - 10 mil.</p>
+                    </div>
+                    <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/kalyna.jpg" alt="#">
+                                    <p class="modal-box__block-text">Go_A • Kalyna • 2021</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Go A – Kalyna.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Ой, на горі калина<br>
+Калина, калина<br>
+Там стояла дівчина<br>
+Дівчина, дівчина<br>
+<br>
+Цвіт калини ламала<br>
+Ламала, ламала<br>
+Й у пучечки в'язала<br>
+В'язала, в'язала<br>
+<br>
+Й у пучечки в'язала<br>
+В'язала, в'язала<br>
+На долівку кидала<br>
+Кидала, кидала<br>
+<br>
+На долівку кидала<br>
+Кидала, кидала<br>
+Чобітками топтала<br>
+Топтала, топтала<br>
+<br>
+Калина, калина<br>
+Калина, калина<br>
+<br>
+Ой, на горі калина<br>
+Під горою малина<br>
+Стану, гляну подивлюся<br>
+Зеленіє долина<br>
+<br>
+Рости моя калина<br>
+Рости моя рутка<br>
+А я буду собирать<br>
+Червоні ягудки<br>
+<br>
+Жаль, жаль, жаль, жаль<br>
+Жалюшенькі-жаль мою<br>
+Жалюшенькі-жаль мою<br>
+Калина, калина<br>
+<br>
+Жаль, жаль, жаль, жаль<br>
+Жалюшенькі-жаль мою<br>
+Жалюшенькі-жаль мою<br>
+Калина, калина<br>
+<br>
+Жаль, жаль, жаль, жаль<br>
+Жалюшенькі-жаль мою<br>
+Жалюшенькі-жаль мою<br>
+Калина, калина<br>
+<br>
+Жаль, жаль, жаль, жаль<br>
+Жалюшенькі-жаль мою<br>
+Жалюшенькі-жаль мою<br>
+Калина, калина<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">04</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal4">Early-earlier - 6,5 mil.</p>
+                    </div>
+                    <div id="modal4" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/early.jpg" alt="#">
+                                    <p class="modal-box__block-text">Go_A • Early-earlier • 2019</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Go_A – Рано-раненько.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Скопаю я грядочку<br>
+У вишневім садочку<br>
+Рано-раненько,<br>
+Рано-раненько!.<br>
+Та й насію квіточок<br>
+На Купала віночок<br>
+Рано-раненько,<br>
+Рано-раненько!.<br>
+Ранесенько в неділю<br>
+Посію я шальвію<br>
+Рано-раненько,<br>
+Рано-раненько!.<br>
+Посію я шальвію,<br>
+По шальвію – дриголюб<br>
+Рано-раненько,<br>
+Рано-раненько!.<br>
+<br>
+Я відчуваю<br>
+Дивовижний світ,<br>
+Я забуваю хто я<br>
+Й де мій дім...<br>
+І поки серце<br>
+Відбиває біт,<br>
+Я буду йти за ним!.<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">05</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal5">Zhalmenina - 5,8 mil.</p>
+                    </div>
+                    <div id="modal5" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/zhaleminina.jpg" alt="#">
+                                    <p class="modal-box__block-text">Go_A • Zhalmenina • 2021</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Go_A – Жальменiна.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Ой, на горі жита много<br>
+Половина зеленого<br>
+Пішли його дівки жати<br>
+Та й забули серпи взяти<br>
+<br>
+Посилала мене мати<br>
+Зеленого жита жати<br>
+А я серпа закину<br>
+Та й до хлопців полину<br>
+<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+<br>
+Прийди, прийди, прихороший<br>
+Скинь чоботи, прийди босий<br>
+Щоб підківки не бряжчали<br>
+Щоб собаки не брехали<br>
+<br>
+Прийшов, прийшов нехороший<br>
+Приніс мені торбу грошей<br>
+А я грошей не схотіла<br>
+За хорошим полетіла<br>
+<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+<br>
+Тепер мені погулять<br>
+Поки ноги не болять<br>
+А як будуть боліти<br>
+Буду дома сидіти<br>
+<br>
+Ой, танцюю, ще й хочеться<br>
+Вже й устілка волочеться<br>
+Я й устілку підв'яжу<br>
+Та й до хлопців побіжу<br>
+<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+<br>
+(Гей!)<br>
+<br>
+(Гей!)<br>
+<br>
+(Гей!)<br>
+<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+Жаль мені на козака<br>
+Жаль мені на його<br>
+Розтоптала черевички<br>
+Ходячи до його-о<br>
+Розтоптала черевички<br>
+Ходячи до його-о<br>
+Розтоптала черевички<br>
+Ходячи до його<br>
+(До його, до його)<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="Go_A">
+            
+            <div class="Go_A__box">
+                <h1 class="Go_A__box-titel">LoveJoy</h1>
+        
+                <div class="Go_A__box__music">
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">01</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal6">One Day - 141 mil.</p>
+                    </div>
+                    <div id="modal6" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/loveJoy-1.jpg" alt="#">
+                                    <p class="modal-box__block-text">LoveJoy • Are You Alright? • 2021</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lovejoy – One Day.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        And stop<br>
+'Cause why'd you have to kill my cat?<br>
+Why'd I have to take you back?<br>
+And time and time, I play the empath<br>
+I don't know why<br>
+But some lights on in an empty pub<br>
+A toilet with the seat left up<br>
+Is closure like a deer in headlights<br>
+<br>
+One day, I know that you will be there<br>
+One day, I'll focus on the future, maybe one day<br>
+Oh baby, isn't life so fucking inconsistent?<br>
+One day, I know that you will be there<br>
+One day, I'll focus on the future, maybe one day<br>
+Oh baby, isn't life so fucking inconsistent?<br>
+<br>
+So let's talk about what I want to do<br>
+'Cause all I want to do is turn back time<br>
+At least a couple Tuesdays<br>
+To before I found one life turn two<br>
+I said it last time<br>
+But I'm not afraid of empty rooms<br>
+I'm not afraid of new perfume<br>
+And, in fact, my dear, I'm fucking terrified<br>
+<br>
+One day, I know that you will be there<br>
+One day, I'll focus on the future, maybe one day<br>
+Oh baby, isn't life so fucking inconsistent?<br>
+One day, I know that you will be there<br>
+One day, I'll focus on the future, maybe one day<br>
+Oh baby, isn't life so fucking inconsistent?<br>
+Whoo!<br>
+<br>
+'Cause I know that<br>
+One day, I know that you will be there<br>
+One day, I'll focus on the future, maybe one day<br>
+Oh baby, isn't life so fucking inconsistent?<br>
+One day, I know that you will be there<br>
+One day, I'll focus on the future, maybe one day<br>
+Oh baby, isn't life so fucking inconsistent?<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">02</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal7">The Fall - 106 mil.</p>
+                    </div>
+                    <div id="modal7" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/loveJoy-2.jpg" alt="#"></img>
+                                    <p class="modal-box__block-text">LoveJoy • Pebble Brain • 2021</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lovejoy – The Fall.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Under the weight of a broken nose<br>
+It's not that simple, but he won't seem to notice<br>
+There must be more to this<br>
+<br>
+So leave those sink estates, and let's book a holiday<br>
+We're painting all the counties in blue<br>
+'Cause we're already boring, and we're already hoarding<br>
+What else have we got left to accrue?<br>
+<br>
+And the ramblers will say<br>
+"It's got a marvelous view"<br>
+But they don't know how many lives it took, no<br>
+They'll never know what you knew<br>
+<br>
+And we're so calm, but we're (fucking scared, fucking scared)<br>
+And we're so calm, but we're (fucking scared, fucking scared)<br>
+And we're so calm, but we're (fucking scared, fucking scared)<br>
+And we're so calm, but we're fucking scared of people like you<br>
+<br>
+Under the weight of some Sertraline<br>
+A couple Prozacs, and now I'm pumping dopamine<br>
+There must be more to this<br>
+We've got a country house now, old dog has been put down now<br>
+It's nice to be around trees<br>
+Custom license plate on our Audi R8<br>
+How many grocers does one county need?<br>
+<br>
+And the ramblers will say<br>
+"It's still a marvelous view"<br>
+That treadmill still looms<br>
+Of your hedonic misuse<br>
+<br>
+So come on, one and all to see the apathy<br>
+The reams of gray stencils that fill the tapestry<br>
+I look to all of you and see a different fucking species<br>
+Aspiration for a different destination to me<br>
+Across the Pennines, there's a thin blue line, a knife and a mall<br>
+Would do something, if it wasn't all so effortful<br>
+'Cause I'm so high, my brain can't even look at the fall<br>
+And when you've reached the top there's nowhere else to go but-<br>
+<br>
+(Hah)<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">03</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal8">Call Me What You Like - 60 mil.</p>
+                    </div>
+                    <div id="modal8" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/loveJoy-3.jpg" alt="#">
+                                    <p class="modal-box__block-text">LoveJoy • Wake Up & It's Overn • 2023</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lovejoy – Call Me What You Like.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        I never was a fan of the internet<br>
+She never felt that safe in her own head<br>
+We both hate the news<br>
+There for the grace of God goes you<br>
+Smiling when I ask if she's bored yet<br>
+We wonder if we took it too far<br>
+Both taste confused<br>
+Darling, what am I to do?<br>
+<br>
+I like to think that I'm<br>
+The only guy she'll see tonight<br>
+You can call me what you like<br>
+As long as you call me<br>
+<br>
+And you can kiss the skin<br>
+From my lips if it makes you feel good<br>
+I'm not sure if you want it<br>
+I'm not sure if you need me, too<br>
+And you can taste the beer<br>
+On every guy that talks to you<br>
+But you can't stay awake forever<br>
+No, you can't stay awake forever<br>
+<br>
+And so I find myself in your mum's bedroom<br>
+Fighting with the pink roller blinds<br>
+It's on pay-per-view<br>
+Just place your bets on whose lost their minds<br>
+You take a pirouette under duvet set<br>
+You sigh with perfect pitch on the time<br>
+I'm not made for you<br>
+But what else is new?<br>
+Oh, Lord she tells me that it's nothing<br>
+I really hope it's nothing
+<br>
+You can kiss the skin<br>
+From my lips if it makes you feel good<br>
+I'm not sure if you want it<br>
+I'm not sure if you need me, too<br>
+And you can taste the beer<br>
+On every guy that talks to you<br>
+But you can't stay awake forever<br>
+No, you can't stay awake forever<br>
+<br>
+This just in, I am a total fucking dumbass<br>
+And I've come to the uncomfortable conclusion<br>
+I'm gonna be spending the rest of my life in a state<br>
+Of constant paranoia<br>
+Just let me follow you<br>
+And I'll proceed to bang my head on every doorway<br>
+And doorframe you see suitable for us to go through<br>
+And I've found that the road to happiness<br>
+Is paved with rows and rows of very tempting parking spaces<br>
+I'm not paranoid, I'm a realist<br>
+I know you're gonna kill me<br>
+<br>
+You can kiss the skin<br>
+From my lips if it makes you feel good<br>
+I'm not sure if you want it<br>
+I'm not sure if you need me, too<br>
+And you can taste the beer<br>
+On every guy that talks to you<br>
+But you can't stay awake forever<br>
+But you can't stay awake forever<br>
+<br>
+And you can kiss the skin<br>
+From my lips if it makes you feel good<br>
+I'm not sure if you want it<br>
+I'm not sure if you need me, too<br>
+And you can taste the beer<br>
+On every guy that talks to you<br>
+But you can't stay awake forever (you can't stay awake)<br>
+You can't stay awake forever (you can't stay awake forever)<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">04</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal9">Normal People Things - 22 mil.</p>
+                    </div>
+                    <div id="modal9" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/loveJoy-4.jpg" alt="#">
+                                    <p class="modal-box__block-text">LoveJoy • Normal People Things • 2023</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lovejoy – Normal People Things.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Panic attack, the backing track<br>
+A background hum for cerebellum<br>
+Oh, what a blessing to meet someone like you<br>
+With eyes as dead as mine, it's fine<br>
+It's normal people things just to lie here in silence<br>
+<br>
+Spending days in self-medicating<br>
+Lost too much weight<br>
+Unpleasant aftertaste<br>
+We think the same, play different games<br>
+Since I like to refuse, hope you blink before I do<br>
+Then pray and pray that you'll go and do it anyway<br>
+<br>
+Hold your breath, I'll make it worth the wait<br>
+Hold your breath to your chest<br>
+And come back and see me, yeah<br>
+<br>
+You rub the makeup off my neck<br>
+That I was using to hide the stubble rash<br>
+I gave myself while shaving<br>
+Yes, it's probably a razor thing but honestly, it's harmless<br>
+I refuse to let the sensitive skin win<br>
+<br>
+Oh, what a blessing (blessing) to meet someone like you<br>
+With eyes as dead as mine, it's fine<br>
+It's normal people things just to lie here in silence<br>
+<br>
+So, we lie here in silence<br>
+Just lie here in silence<br>
+Yes, it's normal people things<br>
+Just to lie here in silence<br>
+<br>
+Hold your breath, I'll make it worth the wait<br>
+Hold your breath to your chest<br>
+And come back and see me, yeah<br>
+Hold your breath to your chest<br>
+And come back and see me<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">05</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal10">Portrait of a Blank - 35 mil.</p>
+                    </div>
+                    <div id="modal10" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/loveJoy-5.jpg" alt="#">
+                                    <p class="modal-box__block-text">LoveJoy • Wake Up & It's Over • 2023</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lovejoy – Portrait of a Blank Slate.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        He told me that much and now he's dead<br>
+Taught me to kill my indulgences<br>
+With a sharp blow to the temple<br>
+Pick up the phone call and do everything he says<br>
+<br>
+I could take a plastic camera<br>
+We could make such a pretty picture<br>
+Oh, so happy, oh, oh, so happy<br>
+I'm pretty cool once you get to know me<br>
+<br>
+I feel at some point I broke my mind<br>
+I'm always searching the silent type<br>
+How do you all make it look so easy?<br>
+You open your hearts up so quickly it scares me<br>
+<br>
+She's an artist, paints across my chest<br>
+Goes to parties, act like hotel guests<br>
+Wake up Monday, now it's over<br>
+Don't you know no one gets what they came here for?<br>
+<br>
+I could paint her, wrapped around her<br>
+We could make such a pretty picture<br>
+Oh, so happy, oh, oh, so happy<br>
+I'm pretty cool once you get to know me<br>
+<br>
+But I'm just the same<br>
+I've got a boring name<br>
+Across the world from what you want and what you came here for<br>
+So I'll wait here for you<br>
+I said, "Please just let me stay"<br>
+Oh, just let me stay, oh<br>
+<br>
+I guess you know now what to expect<br>
+He lives your own life in retrospect<br>
+You know it bores me, his insecurities<br>
+Breaks you down just to act as the architect<br>
+<br>
+I could wait here, by the west pier<br>
+Watched the flotsam float, slowly disappear<br>
+Oh, so happy, oh, oh, so happy<br>
+If only you knew just how much better things could be<br>
+<br>
+Another week of action<br>
+Another hypoglycaemic reaction<br>
+<br>
+But I'm just the same<br>
+I've got a boring name<br>
+Across the world from what you want and what you came here for<br>
+So I'll wait here for you<br>
+I said, "Please just let me stay"<br>
+Oh, just let me stay<br>
+Oh, just let me<br>
+<br>
+I'm sorry, it's all so predictable<br>
+I'm sorry, it's all so predictable, I know<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Go_A__block">
+                <img class="Go_A__block-img" id="img-2" src="./img/LOVEJOY.jpg" alt="#">
+            </div>
+        </div>
+
+
+
+
+
+        <div class="Go_A">
+            <div class="Go_A__block">
+                <img class="Go_A__block-img" src="./img/LADYGAGATWO.jpg" alt="#">
+            </div>
+            <div class="Go_A__box">
+                <h1 class="Go_A__box-titel">Lady Gaga</h1>
+        
+                <div class="Go_A__box__music">
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">01</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal11">Stupid Love - 379 mil.</p>
+                    </div>
+                    <div id="modal11" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/ladygaga-1.jpg" alt="#">
+                                    <p class="modal-box__block-text">Lady Gaga • Chromatica • 2020</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lady Gaga – Stupid Love.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        You're the one that I've been waiting for<br>
+                                        Gotta quit this crying, nobody's gonna<br>
+                                        Heal me if I don't open the door<br>
+                                        Kinda hard to believe, gotta have faith in me<br>
+                                        <br>
+                                        P-A-R-T-Y, I see you and me<br>
+                                        Hangin' on the edge of mystery<br>
+                                        Oh, you're the one that I've been waiting for<br>
+                                        Gotta quit this crying, nobody's gonna<br>
+                                        <br>
+                                        I don't need a reason<br>
+                                        Not sorry I want your stupid love<br>
+                                        I don't need a reason<br>
+                                        Not sorry I want your stupid love<br>
+                                        <br>
+                                        Higher, higher<br>
+                                        I want your stupid love, love<br>
+                                        We got a stupid love, love<br>
+                                        <br>
+                                        Higher, higher<br>
+                                        I want your stupid love, love<br>
+                                        We got a stupid love, love<br>
+                                        <br>
+                                        I want your stupid love, love<br>
+                                        We got a stupid love, love<br>
+                                        <br>
+                                        (Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh)<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">02</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal12">Rain on Me - 620 mil.</p>
+                    </div>
+                    <div id="modal12" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/ladygaga-1.jpg" alt="#">
+                                    <p class="modal-box__block-text">Lady Gaga, Ariana Grande • Chromatica • 2020</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lady Gaga, Ariana Grande – Rain On Me.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        I didn't ask for a free ride<br>
+                                        I only asked you to show me a real good time<br>
+                                        I never asked for the rainfall<br>
+                                        At least I showed up, you showed me nothing at all<br>
+                                        <br>
+                                        It's coming down on me<br>
+                                        Water like misery<br>
+                                        It's coming down on me<br>
+                                        I'm ready, rain on me<br>
+                                        <br>
+                                        I'd rather be dry, but at least I'm alive<br>
+                                        Rain on me, rain, rain, rain on me<br>
+                                        Rain, rain, I'd rather be dry, but at least I'm alive<br>
+                                        Rain on me, rain, rain, rain on me<br>
+                                        <br>
+                                        Rain on me<br>
+                                        Rain on me<br>
+                                        Rain on me<br>
+                                        Rain on me<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">03</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal13">Bad Romance - 1,25 mil.</p>
+                    </div>
+                    <div id="modal13" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/ladygaga-2.jpg" alt="#">
+                                    <p class="modal-box__block-text">Lady Gaga • Bad Romance • 2009</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lady Gaga – Bad Romance.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        Oh-oh-oh-oh-oooh-oh-oh-oh-oh-oh<br>
+                                        Caught in a bad romance<br>
+                                        Oh-oh-oh-oh-oooh-oh-oh-oh-oh-oh<br>
+                                        Caught in a bad romance<br>
+                                        <br>
+                                        Rah-rah-ah-ah-ah-ah!<br>
+                                        Roma-roma-mamaa!<br>
+                                        Ga-ga-ooh-la-la!<br>
+                                        Want your bad romance<br>
+                                        <br>
+                                        I want your ugly<br>
+                                        I want your disease<br>
+                                        I want your everything<br>
+                                        As long as it's free<br>
+                                        I want your love<br>
+                                        <br>
+                                        (Love-love-love I want your love)<br>
+                                        I want your drama<br>
+                                        The touch of your hand<br>
+                                        I want your leather-studded kiss in the sand<br>
+                                        <br>
+                                        And I want your love<br>
+                                        Love-love-love I want your love<br>
+                                        You know that I want you<br>
+                                        And you know that I need you<br>
+                                        <br>
+                                        I want it bad<br>
+                                        Your bad romance<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">04</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal14">Born This Way - 6,5 mil.</p>
+                    </div>
+                    <div id="modal14" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/ladygaga-3.jpg" alt="#">
+                                    <p class="modal-box__block-text">Lady Gaga • Born This Way • 2011</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lady Gaga – Born This Way.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        It doesn't matter if you love him, or capital H-I-M<br>
+                                        Just put your paws up<br>
+                                        'Cause you were born this way, baby<br>
+                                        <br>
+                                        My mama told me when I was young<br>
+                                        We are all born superstars<br>
+                                        She rolled my hair and put my lipstick on<br>
+                                        In the glass of her boudoir<br>
+                                        <br>
+                                        "There's nothin' wrong with lovin' who you are"<br>
+                                        She said, "'Cause He made you perfect, babe"<br>
+                                        "So hold your head up girl and you'll go far,<br>
+                                        Listen to me when I say"
+                                        <br>
+                                        I'm beautiful in my way<br>
+                                        'Cause God makes no mistakes<br>
+                                        I'm on the right track, baby<br>
+                                        I was born this way<br>
+                                        <br>
+                                        Don't hide yourself in regret<br>
+                                        Just love yourself and you're set<br>
+                                        I'm on the right track, baby<br>
+                                        I was born this way<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Go_A__box__music-box">
+                        <p class="Go_A__box__music-num">05</p><span style="margin: 0 5px"></span><p class="Go_A__box__music-name" data-modal="modal15">Poker Face - 1,312 mil.</p>
+                    </div>
+                    <div id="modal15" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-box">
+                                <div class="modal-box__block">
+                                    <img class="modal-box__block-img" src="./img/ladygaga-4.jpg" alt="#">
+                                    <p class="modal-box__block-text">Lady Gaga • The Frame • 2008</p>
+                                    <audio controls class="box-audio-width">
+                                        <source src="./audio/Lady Gaga – Poker Face.mp3" type="audio/ogg">
+                                    </audio>
+                                </div>
+                                <div class="modal-box__lirics">
+                                    <div>
+                                        I wanna hold 'em like they do in Texas, please<br>
+                                        Fold 'em, let 'em hit me, raise it, baby, stay with me (I love it)<br>
+                                        Love game intuition, play the cards with spades to start<br>
+                                        And after he's been hooked, I'll play the one that's on his heart<br>
+                                        <br>
+                                        Oh, oh, oh, oh, oh, oh-oh-e-oh-oh-oh<br>
+                                        I'll get him hot, show him what I've got<br>
+                                        <br>
+                                        Oh, oh, oh, oh, oh, oh-oh-e-oh-oh-oh,<br>
+                                        I'll get him hot, show him what I've got<br>
+                                        <br>
+                                        Can't read my, can't read my<br>
+                                        No, he can't read my poker face<br>
+                                        (She's got me like nobody)<br>
+                                        <br>
+                                        Can't read my, can't read my<br>
+                                        No, he can't read my poker face<br>
+                                        (She's got me like nobody)<br>
+                                        <br>
+                                        P-p-p-poker face, p-p-poker face (Mum-mum-mum-mah)<br>
+                                        P-p-p-poker face, p-p-poker face (Mum-mum-mum-mah)<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="main__cards" id="about">
+            <h3 class="main__cards-titel">Choose US</h3>
+            <p class="main__cards-text">Your best choise</p>
+            <div class="main__cards__box">
+                <div class="main__cards__box__card">
+                    <h1 class="main__cards__box__card-titel">OFFICIAL</h1>
+                    <p class="main__cards__box__card-text">We useing only official contracts with super stars! That allow us to give you fully legal music from stars that made it.</p>
+                </div>
+
+                <div class="main__cards__box__card">
+                    <h1 class="main__cards__box__card-titel">DISCOUND</h1>
+                    <p class="main__cards__box__card-text">If you going to use our site than your account will have promocoads that you can use on official concerts from stars.</p>
+                </div>
+
+                <div class="main__cards__box__card">
+                    <h1 class="main__cards__box__card-titel">FREE START</h1>
+                    <p class="main__cards__box__card-text">Use our site first 31 days for FREE. After u redistrate you can try our site for trial. After 31 days u will be asked for your opinion</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <div class="main__button">
+        <button class="button-64" role="button"><span class="text">BUY A SUBSCRIBE</span></button>
+    </div>
+    <div id="main__button-modal" class="main__button-modal">
+        <div class="main-modal-content">
+            <span class="main-modal-content-close">&times;</span>
+            <div class="main__cards" id="main__cards-ID">
+                <div class="main__cards__box">
+                    <div class="main__cards__box__card" id="main__cards__box__card-ID">
+                        <h1 class="main__cards__box__card-titel">7 DAYS</h1>
+                        <p class="main__cards__box__card-text">This includes free try for the first time & the hole guide on what we are and what do</p>
+                        <button class="main__cards__box__card-bth"> BUY NOW</button>
+                    </div>
+    
+                    <div class="main__cards__box__card" id="main__cards__box__card-ID">
+                        <h1 class="main__cards__box__card-titel">1 MOUNTH</h1>
+                        <p class="main__cards__box__card-text">This inclutes everything from "7 days" + discound in 9,5% + share subscription</p>
+                        <button class="main__cards__box__card-bth"> BUY NOW</button>
+                    </div>
+    
+                    <div class="main__cards__box__card" id="main__cards__box__card-ID">
+                        <h1 class="main__cards__box__card-titel">1 YEAR</h1>
+                        <p class="main__cards__box__card-text">This includes everything from "1 mounth" + discound in 20%, premium sits</p>
+                        <button class="main__cards__box__card-bth"> BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+
+
+
+
+
+<footer class="k-footer">
+    <div class="k-footer__boxOne">
+        <a href="https://www.instagram.com/">
+            <img class="k-footer-icon" src="./k-img/inst.webp" alt="#">
+        </a>
+        <a href="https://www.facebook.com/">
+            <img class="k-footer-icon-2" src="./k-img/facebook.png " alt="#">
+        </a>
+        <a href="https://x.com/?lang=en">
+            <img class="k-footer-icon-3" src="./k-img/twitter.webp" alt="#">
+        </a>
+    </div>
+    <div class="k-footer__boxTwo">
+        <h1 class="k-footer-names">Team: Kira, Ivan K. & Ivan S.</h1>
+    </div>
+    <div class="k-footer__boxThree">
+        <p class="k-footer-text">@2024 Go ITeens | All Rights Reserved</p>
+    </div>
+</footer>
+    <script src="./script.js"></script>
+    <script src="./modal.js"></script>
+</body>
+</html>
