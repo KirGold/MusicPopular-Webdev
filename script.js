@@ -51,10 +51,6 @@ document.addEventListener('scroll', function() {
 
 
 
-
-
-
-
 const image = document.getElementById('img')
 let isMouseDown = false
 let currentRotation = 0
@@ -63,8 +59,8 @@ let rotateTimeout = null;
 
 image.addEventListener('mousedown', function(event) {
     isMouseDown = true
-    const imageCenterX = image.offsetLeft + image.width / 2
-    const mouseX = event.clientX
+    let imageCenterX = image.offsetLeft + image.width / 2
+    let mouseX = event.clientX
     if (mouseX > imageCenterX) {
         rotationDirection = 2
     } else {
@@ -106,21 +102,18 @@ function rotateImage() {
 let modals = document.querySelectorAll(".modal");
 let closeButtons = document.querySelectorAll(".close");
 
-// Function to open modal and start music
 function openModal(modalId) {
     let modal = document.getElementById(modalId);
     modal.style.display = "block";
     startMusic(modalId);
 }
 
-// Function to close modal and stop music
 function closeModal(modalId) {
     let modal = document.getElementById(modalId);
     modal.style.display = "none";
     stopMusic(modalId);
 }
 
-// Function to start playing music
 function startMusic(modalId) {
     let audio = document.querySelector(`#${modalId} audio`);
     if (audio) {
@@ -128,7 +121,6 @@ function startMusic(modalId) {
     }
 }
 
-// Function to stop playing music
 function stopMusic(modalId) {
     let audio = document.querySelector(`#${modalId} audio`);
     if (audio) {
@@ -137,7 +129,6 @@ function stopMusic(modalId) {
     }
 }
 
-// Attach click event listeners to open modals
 let musicBoxes = document.querySelectorAll('.Go_A__box__music-name[data-modal]');
 musicBoxes.forEach(function(box) {
     box.addEventListener('click', function() {
@@ -146,20 +137,12 @@ musicBoxes.forEach(function(box) {
     });
 });
 
-// Attach click event listeners to close modals
 closeButtons.forEach(function(button) {
     button.addEventListener('click', function() {
         let modalId = this.parentNode.parentNode.getAttribute('id');
         closeModal(modalId);
     });
 });
-
-
-$('.main__cards__box__card').click(function(e){
-    e.preventDefault();
-    $(this).toggleClass('flipped');
-});
-
 
 
 

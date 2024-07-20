@@ -20,7 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-// Function to hide the loading screen and show the main content
+
+
+
 function hideLoadingScreen() {
     let loadingScreen = document.getElementById('loading-screen');
     loadingScreen.style.display = 'none';
@@ -29,11 +31,8 @@ function hideLoadingScreen() {
     mainContent.style.display = 'block';
 }
 
-// Wait for the window to load
 window.addEventListener('load', function() {
-    // Set a timeout to hide the loading screen after 3 seconds
     setTimeout(hideLoadingScreen, 2000);
 });
 
-// Also set a timeout to hide the loading screen after 3 seconds, in case the load event doesn't fire
 setTimeout(hideLoadingScreen, 2000);
