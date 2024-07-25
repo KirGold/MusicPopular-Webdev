@@ -55,7 +55,7 @@ const image = document.getElementById('img')
 let isMouseDown = false
 let currentRotation = 0
 let rotationDirection = 0
-/*let rotateTimeout = null;*/
+let rotateTimeout = null;
 
 image.addEventListener('mousedown', function(event) {
     isMouseDown = true
@@ -71,7 +71,7 @@ image.addEventListener('mousedown', function(event) {
 
 document.addEventListener('mouseup', function() {
     isMouseDown = false;
-    /*clearTimeout(rotateTimeout);*/
+    clearTimeout(rotateTimeout);
 });
 
 
@@ -79,7 +79,7 @@ function rotateImage() {
     if (isMouseDown) {
         currentRotation += rotationDirection;
         image.style.transform = `rotate(${currentRotation}deg)`;
-        /*rotateTimeout = setTimeout(rotateImage, 20)*/
+        rotateTimeout = setTimeout(rotateImage, 20)
     }
 }
 
